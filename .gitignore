@@ -4,7 +4,8 @@
 *.pyc
 *.png
 macro/*.mac
-Gemfile.lock
+out/*
+!out/.keep
 
 juggler
 irt
@@ -23,3 +24,6 @@ tmp.mac
 *.hepmc*
 hepmc/*
 !hepmc/README.md
+
+.rbenv
+.ruby-version
